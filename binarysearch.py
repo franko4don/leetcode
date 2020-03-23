@@ -32,6 +32,7 @@ def binary_search(nums, target):
 
 
 a = [4,5,6,7,0,1,2]
-result = binary_search(a, 0)
+a.sort()
+result = binary_search(a, 8)
 
 print(result)

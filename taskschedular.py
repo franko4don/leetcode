@@ -1,7 +1,6 @@
 class Solution:
     def leastInterval(self, tasks, n) -> int:
         character = [0 for i in range(26)]
-
         for i in tasks:
             character[ord(i) - ord('A')] += 1
         character.sort()
@@ -15,4 +14,4 @@ class Solution:
 m = Solution()
 print(m.leastInterval(["A", "A", "A", "B", "B", "B"], 2))
 
-print(ord('C') - ord('A'))
+print(ord(''))
